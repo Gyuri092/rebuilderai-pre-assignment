@@ -29,8 +29,8 @@
 
     "paths": {
       "@/*": ["src/*"],
-      "@/components/*": ["src/components/*"],
-      "@/styles/*": ["src/styles/*"],
+      "@components/*": ["src/components/*"],
+      "@styles/*": ["src/styles/*"],
     },
   },
   "include": ["src", "**/*.ts", "**/*.tsx",],
