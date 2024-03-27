@@ -75,7 +75,9 @@ module.exports = {
     "no-param-reassign": [
       "error",
       { "props": true, "ignorePropertyModificationsFor": ["state"] }
-    ]
+    ],
+    // Emotion 사용 시 css props 오류 방지
+    'react/no-unknown-property': ['error', { ignore: ['css'] }]
   },
   "settings": {
     "import/resolver": {
