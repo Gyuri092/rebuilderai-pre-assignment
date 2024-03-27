@@ -31,6 +31,7 @@
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
       "@styles/*": ["src/styles/*"],
+      "@assets/*": ["src/assets/*"],
     },
   },
   "include": ["src", "**/*.ts", "**/*.tsx",],
