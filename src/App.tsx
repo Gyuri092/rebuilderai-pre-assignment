@@ -1,35 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      멕시코에서 미국 하와이에 걸친 CCZ의 이번 조사는 태평양 심해 해양생태계
+      관찰이 주목적인 ‘SMARTEX 프로젝트’의 일환이다. 드론 촬영에서는 신종 민태과
+      물고기와 온몸이 분홍색인 해삼 동료 바다돼지, 기묘한 형태의 말미잘 및
+      갑각류 등 다양한 생물이 관찰됐다.
+    </div>
+  );
 }
 
-export default App
+export default App;
