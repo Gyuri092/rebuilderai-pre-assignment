@@ -7,9 +7,9 @@ const reset = css`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    /* font-size: 100%; */
     font-weight: 400;
-    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+    /* font-family: 'docs-Roboto', Helvetica, Arial, sans-serif; */
     letter-spacing: 0;
     vertical-align: baseline;
     text-decoration: none;
@@ -32,7 +32,29 @@ const reset = css`
   }
   body {
     line-height: 1;
-    background: #f0ebf8;
+    overflow-y: scroll;
+    display: block;
+    font-family:
+      Pretendard Variable,
+      Pretendard,
+      -apple-system,
+      BlinkMacSystemFont,
+      system-ui,
+      Roboto,
+      Helvetica Neue,
+      Segoe UI,
+      Apple SD Gothic Neo,
+      Noto Sans KR,
+      Malgun Gothic,
+      Apple Color Emoji,
+      Segoe UI Emoji,
+      Segoe UI Symbol,
+      sans-serif;
+    font-size: 62.5%;
+    font-style: normal;
+    max-width: 100%;
+    white-space: nowrap;
+    width: 100%;
   }
   blockquote,
   q {
