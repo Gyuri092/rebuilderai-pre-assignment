@@ -13,3 +13,6 @@ yarn // 필요한 모듈 설치
 ```
 yarn dev // 로컬 실행
 ```
+
+## 바로 가기
+https://rebuilderai-pre-assignment.vercel.app/
