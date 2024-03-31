@@ -68,6 +68,9 @@ module.exports = {
     ],
     // Emotion 사용 시 css props 오류 방지
     'react/no-unknown-property': ['error', { ignore: ['css'] }],
+
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
   },
   settings: {
     'import/resolver': {
