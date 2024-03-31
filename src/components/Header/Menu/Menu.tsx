@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import { useState } from 'react';
 
 export const Menu = () => {
-  const [isMouseOVer, setIsMouseOVer] = useState(false);
+  const [isMouseOver, setIsMouseOver] = useState(false);
   return (
     <div
       css={css`
@@ -41,14 +41,14 @@ export const Menu = () => {
     >
       <span>Service</span>
       <span
-        onMouseEnter={() => setIsMouseOVer(true)}
-        onMouseLeave={() => setIsMouseOVer(false)}
+        onMouseEnter={() => setIsMouseOver(true)}
+        onMouseLeave={() => setIsMouseOver(false)}
         css={css`
           position: relative;
         `}
       >
         Technology
-        {isMouseOVer && <DetailMenu />}
+        {isMouseOver && <DetailMenu />}
       </span>
       <span>About</span>
       <span>Contact</span>
